@@ -15,8 +15,26 @@ int main(){
             sscanf(ptr, "%c", &X);
             if(X == 'X')
                 num[i] = 10;
-            else
-                sscanf(ptr, "%d", &num[i]);
+            if(X == '0')
+                num[i] = 0;
+            if(X == '1')
+                num[i] = 1;
+            if(X == '2')
+                num[i] = 2;
+            if(X == '3')
+                num[i] = 3;
+            if(X == '4')
+                num[i] = 4;
+            if(X == '5')
+                num[i] = 5;
+            if(X == '6')
+                num[i] = 6;
+            if(X == '7')
+                num[i] = 7;
+            if(X == '8')
+                num[i] = 8;
+            if(X == '9')
+                num[i] = 9;
             i += 1;
             ptr = strtok(NULL, space);
         }
