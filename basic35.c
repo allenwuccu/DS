@@ -25,12 +25,12 @@ int main(){
             for(int j = 0 ; j < k ; j++){
                 scanf("%d", &price[j]);
             }
-            bubble(k, price);
+            bubble(k, price);//價錢由小排列到大
             int sum = 0;
             for(int j = 0 ; j < m ; j++){
-                sum += price[j];
+                sum += price[j];//買m個不一樣禮物的價錢總和
             }
-            if(sum <= T)
+            if(sum <= T)//價錢總和<預算
                 printf("%d\n", sum);
             else
                 printf("Impossible\n");
