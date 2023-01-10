@@ -17,7 +17,7 @@ int main(void){
             temp = temp/10;
         }
     }
-    //bubble
+    //依照個位數字和bubble sort
     for(int i = 0 ; i < num - 1 ; i++){
         for(int j = 0 ; j < num - i - 1 ; j++){
             if(sum[j] > sum[j+1]){
