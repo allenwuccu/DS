@@ -24,7 +24,7 @@ int main(){
                 for(int l = k+1 ; l < i ; l++){
                     if(in[k] == in[l] && num[l] > 0){
                         num[k] = num[k] + 1;
-                        num[l] = 0;
+                        num[l] = 0;//因為已經+1了，所以此處歸零
                     }
                 }
             }
