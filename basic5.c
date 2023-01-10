@@ -5,7 +5,7 @@ int main() {
     int input = 0;
     scanf("%d", &input);
     if(input<0){
-        input = input +256;
+        input = input +256;//例如-2變254
     }
     int output[8];
     for(int i = 0 ; i < 8 ; i++)
