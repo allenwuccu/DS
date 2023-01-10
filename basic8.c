@@ -10,7 +10,7 @@ int main() {
     else{
         for(int i = 2 ; i < num ; i++){
             if((num%i)==0){
-                printf("NO\n");
+                printf("NO\n");//表示有除了1和自己之外的因數
                 return 0;
             }
         }
