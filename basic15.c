@@ -15,10 +15,10 @@ int main()
         for(int i = 0 ; i < strlen(str) ; i++){
             if(str[i] == 32)//空格
                 words += 1;//字數+1
-            else if(islower(str[i])){//upper
+            else if(islower(str[i])){//lower
                 times[str[i] - 97] += 1;
             }
-            else{//lower
+            else{//upper
                 times[str[i] - 65] += 1;
             }
         }
