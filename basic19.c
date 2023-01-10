@@ -5,7 +5,7 @@
 int main(){
     int num = 0;
     while(scanf("%d",&num) != EOF){
-        int s[num], d[num];
+        int s[num], d[num];//s:出發，d:返回
         int car = num;
         for(int i = 0 ; i < num ; i++){
             scanf("%d", &s[i]);
